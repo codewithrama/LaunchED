@@ -396,6 +396,11 @@ header {
         transition: all 0.3s ease-in-out;
     }
 
+    .hero--text p {
+        font-size: 18px;
+        text-align: center;
+    }
+
     .nav--links {
         position: absolute;
         top: 70px;

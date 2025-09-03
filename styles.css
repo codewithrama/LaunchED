@@ -548,6 +548,14 @@ header {
         font-size: 18px;
         text-align: center;
     }
+
+    .Get-started--btn {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+
 }
 
 

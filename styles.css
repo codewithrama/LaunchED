@@ -508,6 +508,11 @@ header {
     .hide {
         display: none;
     }
+
+    .Get-started--btn {
+        margin-top: 10px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -544,6 +549,8 @@ header {
 .card--items {
     margin-top: -30px;
 }
+
+
 
 
 /* Tablet Styles */

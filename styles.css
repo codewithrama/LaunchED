@@ -511,6 +511,7 @@ header {
 
     .Get-started--btn {
         margin-top: 10px;
+        margin-left: 35%;
         text-align: center;
     }
 }
@@ -552,7 +553,7 @@ header {
     .Get-started--btn {
         margin-top: 10px;
         text-align: center;
-        margin-left: 40%;
+        margin-left: 35%;
     }
 
 

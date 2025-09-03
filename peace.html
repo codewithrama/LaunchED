@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card
+    </title>
+
+    <style>
+        .rocket-img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .hero--text p:nth-child(1) {
+            color: rgb(255 90 31);
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .intro {
+            font-size: 100px;
+            margin-block-end: 0px;
+            margin-block-start: 0px
+        }
+
+        .sub-heading {
+            font-size: 60px;
+            margin-block-start: 0px
+        }
+
+        .highlight {
+            color: #EA5849;
+            font-weight: bold;
+        }
+
+        .description {
+            color: #737373;
+            font-size: 22px;
+
+        }
+
+        .arrow-icon {
+            margin-right: 20px;
+        }
+
+        .card--container {
+            max-height: min-content;
+        }
+
+        .card--items {
+            display: flex;
+            padding: 15px;
+            border: 2px solid transparent;
+            border-radius: 15px;
+            align-items: center;
+            margin-bottom: -55px;
+            justify-content: space-evenly;
+            z-index: 0;
+
+        }
+
+        .card---text:hover {
+            cursor: pointer;
+        }
+
+        .card-description {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .card--container .card--items:nth-child(1) {
+            background-color: #EA5849B2;
+            color: white;
+        }
+
+        .card--container .card--items:nth-child(2) {
+            background-color: #FAE5818F;
+            color: black;
+        }
+
+        .card--container .card--items:nth-child(3) {
+            background-color: #78CBFDB2;
+            color: white;
+        }
+
+        .card--container .card--items:nth-child(4) {
+            background-color: #DDC9FBB2;
+            color: black;
+        }
+
+        .card-img {
+            height: 130px;
+        }
+
+
+        .hide {
+            display: none;
+        }
+
+        .card--active {
+            display: block;
+            z-index: 1000
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card--container">
+
+        <div class="card--items">
+            <div class="card---text card--active" data-card="1">
+                <h3>
+                    <img src="asserts/Arrow-white.png" class="arrow-icon">
+                    Study Abroad
+                </h3>
+                <p class="card-description hide">
+                    Access expert guidance, scholarships, and visa support to achieve your global education
+                    dreams.
+                </p>
+            </div>
+            <div class="card--img--container">
+                <img src="asserts/card1bg.png" alt="Study Abroad" class="card-img">
+            </div>
+        </div>
+
+        <div class="card--items">
+            <div class="card---text" data-card="2">
+                <h3>
+                    <img src="asserts/Arrow-white.png" class="arrow-icon">
+                    Career Launchpad
+                </h3>
+                <p class="card-description hide">
+                    Gain mentorship skills and career tools to fast-track your growth in top industries.
+                </p>
+            </div>
+            <div class="card--img--container">
+                <img src="asserts/card2bg.png" alt="Career Launchpad" class="card-img">
+            </div>
+        </div>
+
+        <div class="card--items">
+            <div class="card---text" data-card="3">
+                <h3>
+                    <img src="asserts/Arrow-white.png" class="arrow-icon">
+                    Professional Courses
+                </h3>
+                <p class="card-description hide">
+                    Upgrade your skills with industry-relevant courses for better jobs and higher career
+                    success.
+                </p>
+            </div>
+            <div class="card--img--container">
+                <img src="asserts/card3bg.png" alt="Professional Courses" class="card-img">
+            </div>
+        </div>
+
+        <div class="card--items">
+            <div class="card---text" data-card="4">
+                <h3>
+                    <img src="asserts/Arrow-white.png" class="arrow-icon">
+                    Health Care Jobs Abroad
+                </h3>
+                <p class="card-description hide">
+                    Secure overseas healthcare roles with training, licensing, and placement assistance
+                    worldwide.
+                </p>
+            </div>
+            <div class="card--img--container">
+                <img src="asserts/card4bg.png" alt="Health Care" class="card-img">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

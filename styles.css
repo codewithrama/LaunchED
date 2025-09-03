@@ -1,0 +1,187 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.logo {
+    width: 120px;
+    height: 40px;
+}
+
+.logo img {
+    display: block;
+    max-height: 40px;
+}
+
+.nav--links {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav--links a {
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.nav--links a.study-destination::after {
+    content: " ▼";
+    font-size: 12px;
+}
+
+.Sign-up--btn,
+.Get-started--btn {
+    font-size: 15px;
+    background-color: #EA5849;
+    border: none;
+    color: white;
+    width: 160px;
+    height: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+header {
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+
+.Sign-up--btn:hover,
+.Get-started--btn:hover {
+    background-color: hsl(6, 94%, 50%);
+    transform: scale(1.05);
+}
+
+
+
+.hero-card--container {
+    background-image: url(./asserts/backround-gradient.png);
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(255, 255, 255, 0.905);
+    box-shadow: 0 4px 12px rgba(234, 88, 73, 0.4);
+    padding: 70px;
+    border-radius: 25px;
+    margin: 40px;
+    gap: 30px;
+}
+
+.rocket-img {
+    width: 25px;
+    height: 25px;
+}
+
+.hero--text p:nth-child(1) {
+    color: rgb(255 90 31);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.intro {
+    font-size: 100px;
+    margin-block-end: 0px;
+    margin-block-start: 0px
+}
+
+.sub-heading {
+    font-size: 60px;
+    margin-block-start: 0px
+}
+
+.highlight {
+    color: #EA5849;
+    font-weight: bold;
+}
+
+.description {
+    color: #737373;
+    font-size: 22px;
+
+}
+
+.arrow-icon {
+    margin-right: 20px;
+}
+
+.card--container {
+    max-height: min-content;
+}
+
+.card---text h3 {
+    text-align: left;
+    width: 100%;
+}
+
+.card--items {
+    display: flex;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: -30px;
+    justify-content: space-between;
+    gap: 0;
+    overflow: hidden;
+    z-index: 2;
+
+
+}
+
+.card---text:hover {
+    cursor: pointer;
+}
+
+.card-description {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.card--container .card--items:nth-child(1) {
+    background-color: #EA5849B2;
+    color: white;
+}
+
+.card--container .card--items:nth-child(2) {
+    background-color: #FAE5818F;
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+.card--container .card--items:nth-child(3) {
+    background-color: #78CBFDB2;
+    color: white;
+}
+
+.card--container .card--items:nth-child(4) {
+    background-color: #DDC9FBB2;
+    color: black;
+}
+
+.card-img {
+    height: 130px;
+    border-radius: 15px;
+    z-index: -1;
+    object-fit: contain;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    margin-left: 10%;
+}
+
+
+.hide {
+    display: none;
+}
+
+/* .card--active {
+    display: block;
+} */
